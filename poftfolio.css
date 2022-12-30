@@ -1,0 +1,21 @@
+@media(max-width: 75em){
+    html{
+      font-size: 80%;
+      font-family: Helvetica;
+    }
+  }
+  #section{ 
+    height: 100vh;
+  
+  }
+  nav{
+    display: flex;
+  justify-content: flex-start;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
